@@ -1,0 +1,4 @@
+Hii , This folder is for my python tutorials.
+All the concepts of Python will be stored in this folder only.
+Also I will create a Git-Hub repo for this folder so that I can save my progress and learning path.
+So let's begin the Journey so far!!!
