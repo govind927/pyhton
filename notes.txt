@@ -130,4 +130,46 @@ Copying Dictionary - Create a copy of the dictionary using copy().
 Merging Dictionaries - Merge two dictionaries using update().
  
  ---------------------------------------------------------------------------------------------------------------
+***
+Python Sets :A set in Python is an unordered, mutable, and iterable collection of unique elements. 
+It is defined using curly braces {} or the set() constructor. 
+Sets are useful for operations involving membership testing, removing duplicates, and performing 
+mathematical set operations like union, intersection, difference, etc.
+
+Set Methods : 
+add() - Adds an element to the set.
+remove() - Removes a specific element from the set (raises an error if not found).
+discard() - Removes a specific element from the set (does not raise an error if not found).
+pop() - Removes and returns an arbitrary element from the set.
+clear() - Removes all elements from the set.
+copy() - Returns a shallow copy of the set.
+union() - Returns a new set containing all unique elements from both sets.
+intersection() - Returns a new set containing elements common to both sets.
+difference() - Returns a new set containing elements in the first set but not in the second.
+symmetric_difference() - Returns a new set containing elements in either of the sets but not in both.
+update() - Updates the set with elements from another set or iterable.
+intersection_update() - Updates the set to keep only elements found in it and another set.
+difference_update() - Updates the set by removing elements found in another set.
+symmetric_difference_update() - Updates the set to include elements in either set but not in both.
+isdisjoint() - Returns True if two sets have no elements in common.
+issubset() - Returns True if the set is a subset of another set.
+issuperset() - Returns True if the set is a superset of another set.
+
+Set Operations : 
+Adding Elements - Add elements using add() or update().
+Removing Elements - Remove elements using remove(), discard(), or pop().
+Union - Combine elements of two sets using | or union().
+Intersection - Find common elements between sets using & or intersection().
+Difference - Find elements in one set but not in the other using - or difference().
+Symmetric Difference - Find elements in either set but not both using ^ or symmetric_difference().
+Membership Test - Check if an element exists in a set using in.
+Iterating - Loop through the elements of a set using a for loop.
+Clearing Set - Remove all elements using clear().
+Copying Set - Create a copy of the set using copy().
+Subset Test - Check if a set is a subset of another using issubset().
+Superset Test - Check if a set is a superset of another using issuperset().
+Disjoint Test - Check if two sets have no common elements using isdisjoint().
+
+--------------------------------------------------------------------------------------------------------------
+
 
