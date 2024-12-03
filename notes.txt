@@ -7,6 +7,8 @@ This section is for writing important notes.
 # Comparision: == , != , < , > , <= , >= etc.
 # Arithmatic : + , - , * , / etc.
 
+--------------------------------------------------------------------------------------------------------------------------
+
 ***
 String is an immutable data types that stores values in quotes
 string slicing = [start : stop : step] (start to stop - 1)
@@ -48,4 +50,25 @@ ESCAPE SEQUENCE CHARACTERS :
 >> \t = tab like space
 >> \' \" = add single or double quotes
 >> \0 = null character
- 
+
+------------------------------------------------------------------------------------------------------------------------- 
+***
+PYTHON LISTS: 
+Python list are mutable data type i.e. their vaules can be changed
+List are containers to store values of any data type
+List indexing is same as String indexing
+Lists are encllosed in Square Brackets
+
+Some of most used List methods are :
+
+append() - Adds an item to the end of the list.
+extend() - Extends the list by appending elements from another iterable.
+insert() - Inserts an item at a specified position.
+remove() - Removes the first occurrence of a specified value.
+pop() - Removes and returns the item at a specified index (default is the last item).
+clear() - Removes all items from the list.
+index() - Returns the index of the first occurrence of a specified value.
+count() - Returns the number of occurrences of a specified value in the list.
+sort() - Sorts the list in ascending order by default (can be customized).
+reverse() - Reverses the order of the list in place.
+copy() - Returns a shallow copy of the list.
