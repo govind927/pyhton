@@ -25,3 +25,5 @@ print(l)
 
 print(l[1 : 4])
 
+l[1] = "Govind Sharma"
+print(l)
