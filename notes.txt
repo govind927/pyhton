@@ -6,3 +6,46 @@ This section is for writing important notes.
 # Logical : and or not
 # Comparision: == , != , < , > , <= , >= etc.
 # Arithmatic : + , - , * , / etc.
+
+***
+String is an immutable data types that stores values in quotes
+string slicing = [start : stop : step] (start to stop - 1)
+
+Most used String Functions :
+
+print(str[-4 : -1])
+
+print(str[1 : 4])
+
+print(str.endswith("78"))
+
+print(len(str))
+
+print(str.upper())
+
+print(str.lower())
+
+print(str.title())
+
+print(str.strip())
+
+print(str.split(","))
+
+print(str.replace("second" , "2nd"))
+
+print(str.find("."))
+
+print(str.find("9"))
+
+print(str.count("E"))
+
+print(str.isalnum())
+
+
+
+ESCAPE SEQUENCE CHARACTERS : 
+>> \n = new line
+>> \t = tab like space
+>> \' \" = add single or double quotes
+>> \0 = null character
+ 
