@@ -1,1 +1,8 @@
 This section is for writing important notes.
+
+# Operators are of four types Assignment , Logical , Comparision and Logical
+
+# Assignment : += , -= , = etc.
+# Logical : and or not
+# Comparision: == , != , < , > , <= , >= etc.
+# Arithmatic : + , - , * , / etc.
