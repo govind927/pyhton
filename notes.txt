@@ -19,25 +19,25 @@ print(str[1 : 4])
 
 print(str.endswith("78"))
 
-print(len(str))
+print(len(str))    >>> returns number of characters in string
 
-print(str.upper())
+print(str.upper())  >>> uppercase the string
 
-print(str.lower())
+print(str.lower())   >>> lowercase the string
 
-print(str.title())
+print(str.title())   >>> uppercase first letter of each char in string
 
-print(str.strip())
+print(str.strip())   >>> removes whitespaces 
 
-print(str.split(","))
+print(str.split(","))  >>> splits the string based on specified character
 
-print(str.replace("second" , "2nd"))
+print(str.replace("second" , "2nd"))  >>> replace old char wit new char
 
-print(str.find("."))
+print(str.find("."))  >>> returns the index of "char"
 
 print(str.find("9"))
 
-print(str.count("E"))
+print(str.count("E"))  >>> return the count of "char" in string
 
 print(str.isalnum())
 
