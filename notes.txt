@@ -72,3 +72,28 @@ count() - Returns the number of occurrences of a specified value in the list.
 sort() - Sorts the list in ascending order by default (can be customized).
 reverse() - Reverses the order of the list in place.
 copy() - Returns a shallow copy of the list.
+
+----------------------------------------------------------------------------------------------------------------------
+***
+Python Tuples : Immutable , store any data type values in () 
+
+Tuple Methods : 
+count() - Returns the number of times a specified value appears in the tuple.
+index() - Returns the index of the first occurrence of a specified value.
+
+Operations on Tuple:
+Indexing - Access elements of a tuple using their index.
+Slicing - Extract a portion of the tuple using slicing.
+Concatenation - Combine two or more tuples into one.
+Repetition - Repeat the elements of a tuple multiple times.
+Membership - Check if an element exists in a tuple using in.
+Iteration - Loop through the elements of a tuple using a for loop.
+Length - Find the number of elements in a tuple using len().
+Minimum and Maximum - Find the smallest or largest element in a tuple using min() and max().
+Sum - Calculate the sum of all numeric elements in a tuple using sum().
+Sorting - Sort the elements of a tuple using sorted() (returns a list).
+Unpacking - Assign elements of a tuple to variables.
+Nesting - Create tuples within tuples.
+
+Most of List and Tuple operations are same except changing in Tuples as Tuples are IMMUTABLE.
+ 
