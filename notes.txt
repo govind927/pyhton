@@ -96,4 +96,38 @@ Unpacking - Assign elements of a tuple to variables.
 Nesting - Create tuples within tuples.
 
 Most of List and Tuple operations are same except changing in Tuples as Tuples are IMMUTABLE.
+ -------------------------------------------------------------------------------------------------------------------
+
+ ***
+ Python Dictionary : Mutable , Unordered , Indexed , "Key":Value pairs , each key in Unique , enclosed in {curley braces}
+
+ Dict_Methods : 
  
+get() - Returns the value of a specified key.
+pop() - Removes the specified key and returns the corresponding value.
+popitem() - Removes and returns the last inserted key-value pair.
+keys() - Returns a view object containing all the keys.
+values() - Returns a view object containing all the values.
+items() - Returns a view object containing all key-value pairs as tuples.
+clear() - Removes all items from the dictionary.
+copy() - Returns a shallow copy of the dictionary.
+fromkeys() - Creates a new dictionary with specified keys and a default value.
+setdefault() - Returns the value of a key. If the key does not exist, it adds the key with a specified default value.
+update() - Updates the dictionary with elements from another dictionary or iterable.
+
+Operations on Dictionary : 
+
+Adding Items - Add a key-value pair to the dictionary.
+Updating Values - Modify the value of an existing key.
+Accessing Items - Access the value of a key using dict[key] or get().
+Removing Items - Remove key-value pairs using pop() or popitem().
+Checking Membership - Check if a key exists in the dictionary using in.
+Iterating Keys - Loop through all keys in the dictionary using for key in dict.keys().
+Iterating Values - Loop through all values in the dictionary using for value in dict.values().
+Iterating Key-Value Pairs - Loop through all key-value pairs using for key, value in dict.items().
+Clearing Dictionary - Remove all items using clear().
+Copying Dictionary - Create a copy of the dictionary using copy().
+Merging Dictionaries - Merge two dictionaries using update().
+ 
+ ---------------------------------------------------------------------------------------------------------------
+
