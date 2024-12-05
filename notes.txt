@@ -171,5 +171,11 @@ Superset Test - Check if a set is a superset of another using issuperset().
 Disjoint Test - Check if two sets have no common elements using isdisjoint().
 
 --------------------------------------------------------------------------------------------------------------
+Function : A Functionis a set of statements used to perform a specific task. Two types:
+    Built-in Functions -> Pre defined in Python e.g. print , len , range etc.
+    User Defined -> Created by User to ease tasks
+
+Recurssion : When a function call itself repeatedly
+
 
 
