@@ -7,7 +7,7 @@ This section is for writing important notes.
 # Comparision: == , != , < , > , <= , >= etc.
 # Arithmatic : + , - , * , / etc.
 
---------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
 ***
 String is an immutable data types that stores values in quotes
@@ -51,7 +51,7 @@ ESCAPE SEQUENCE CHARACTERS :
 >> \' \" = add single or double quotes
 >> \0 = null character
 
-------------------------------------------------------------------------------------------------------------------------- 
+------------------------------------------------------------------------------------------------------------- 
 ***
 PYTHON LISTS: 
 Python list are mutable data type i.e. their vaules can be changed
@@ -73,7 +73,7 @@ sort() - Sorts the list in ascending order by default (can be customized).
 reverse() - Reverses the order of the list in place.
 copy() - Returns a shallow copy of the list.
 
-----------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------
 ***
 Python Tuples : Immutable , store any data type values in () 
 
@@ -96,10 +96,11 @@ Unpacking - Assign elements of a tuple to variables.
 Nesting - Create tuples within tuples.
 
 Most of List and Tuple operations are same except changing in Tuples as Tuples are IMMUTABLE.
- -------------------------------------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------------------
 
  ***
- Python Dictionary : Mutable , Unordered , Indexed , "Key":Value pairs , each key in Unique , enclosed in {curley braces}
+ Python Dictionary : Mutable , Unordered , Indexed , "Key":Value pairs , each key in Unique , 
+ enclosed in {curley braces}
 
  Dict_Methods : 
  
@@ -112,7 +113,8 @@ items() - Returns a view object containing all key-value pairs as tuples.
 clear() - Removes all items from the dictionary.
 copy() - Returns a shallow copy of the dictionary.
 fromkeys() - Creates a new dictionary with specified keys and a default value.
-setdefault() - Returns the value of a key. If the key does not exist, it adds the key with a specified default value.
+setdefault() - Returns the value of a key. If the key does not exist, it adds the key 
+                with a specified default value.
 update() - Updates the dictionary with elements from another dictionary or iterable.
 
 Operations on Dictionary : 
@@ -129,7 +131,7 @@ Clearing Dictionary - Remove all items using clear().
 Copying Dictionary - Create a copy of the dictionary using copy().
 Merging Dictionaries - Merge two dictionaries using update().
  
- ---------------------------------------------------------------------------------------------------------------
+ ----------------------------------------------------------------------------------------------------
 ***
 Python Sets :A set in Python is an unordered, mutable, and iterable collection of unique elements. 
 It is defined using curly braces {} or the set() constructor. 
@@ -170,14 +172,14 @@ Subset Test - Check if a set is a subset of another using issubset().
 Superset Test - Check if a set is a superset of another using issuperset().
 Disjoint Test - Check if two sets have no common elements using isdisjoint().
 
---------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
 Function : A Functionis a set of statements used to perform a specific task. Two types:
     Built-in Functions -> Pre defined in Python e.g. print , len , range etc.
     User Defined -> Created by User to ease tasks
 
 Recurssion : When a function call itself repeatedly
 
-----------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------
 ***
 File Handling in Python :
     1. Basic File Operations
@@ -226,7 +228,8 @@ File Handling in Python :
         Use json module to handle JSON data (e.g., configuration files).
     
     YAML Files:
-        Use pyyaml module for working with YAML files (commonly used in DevOps for configurations like Docker, Kubernetes, Ansible).
+        Use pyyaml module for working with YAML files (commonly used in DevOps for configurations like Docker
+        Kubernetes, Ansible).
 
 
     4. File Handling in Automation
@@ -257,5 +260,97 @@ File Handling in Python :
     Secure File Management:
         Store sensitive configuration files securely.
         Encrypt and decrypt data as necessary.
+-------------------------------------------------------------------------------------------------------------
+***
+OOPS IN PYTHON : 
+### **Object-Oriented Programming (OOP) in Python**  
 
+- **OOP** is a programming paradigm that structures programs around objects, which are instances of classes.  
+- It promotes modular, reusable, and maintainable code.  
+- Core principles of OOP: **Encapsulation**, **Inheritance**, **Polymorphism**.
+
+---
+
+### **Key Concepts of OOP**  
+
+#### **1. Class**  
+- A blueprint for creating objects.  
+- Defines properties (attributes) and behaviors (methods) of objects.  
+- **Syntax:**  
+  ```python
+  class ClassName:
+      # Attributes and methods
+      pass
+  ```
+
+#### **2. Object**  
+- An instance of a class.  
+- **Syntax:**  
+  ```python
+  obj = ClassName()
+  ```
+
+#### **3. Attributes**  
+- Variables that belong to an object or class.  
+- Types:  
+  - **Instance Attributes:** Specific to an object.  
+  - **Class Attributes:** Shared by all objects of a class.
+
+#### **4. Methods**  
+- Functions defined within a class to perform operations.  
+- Types:  
+  - **Instance Methods:** Operate on instance attributes.  
+  - **Class Methods:** Use the `@classmethod` decorator and operate on class attributes.  
+  - **Static Methods:** Use the `@staticmethod` decorator and do not operate on class or instance attributes.  
+
+---
+
+### **OOP Principles in Python**
+
+#### **1. Inheritance**
+- **Definition:** Allows a class (child) to inherit properties and behaviors (attributes and methods) 
+    from another class (parent).
+    
+- **Purpose:** Enables code reuse and establishes a relationship between classes.
+
+- **Benefits:**
+  - Promotes reusability by allowing the child class to use the code from the parent class.
+  - Creates a hierarchical relationship between classes.
+  - Reduces redundancy by centralizing shared code in the parent class.
+  
+---
+
+#### **2. Encapsulation**
+- **Definition:** Restricting access to certain details of an object and exposing only necessary parts.
+- **Purpose:** Protects the internal state of an object and ensures controlled access.
+- **Benefits:**
+  - Enhances data security and integrity by limiting direct access to attributes.
+  - Allows controlled interaction with object data through getter and setter methods.
+  - Reduces complexity by hiding the internal workings of an object.
+
+---
+
+#### **3. Abstraction**
+- **Definition:Hiding the complex implementation details of object and exposing only the essential features.
+- **Purpose:** Simplifies interaction with the object by focusing on what it does rather than how it works.
+- **Benefits:**
+  - Reduces complexity for users of the class.
+  - Allows modification of internal workings without affecting the outside world.
+  - Provides flexibility in terms of implementation while maintaining a consistent interface.
+
+---
+
+#### **4. Polymorphism**
+- **Definition:** The ability for different classes to define methods with the same name, 
+    allowing objects of different types to be treated as if they were the same type.
+
+- **Purpose:** Makes code more flexible and extensible by allowing the same method to work 
+    on objects of different classes.
+
+- **Benefits:**
+  - Increases flexibility by allowing multiple forms of a method to work with different objects.
+  - Enables method overriding, where a method in a child class can replace a method in the parent class.
+  - Helps to write more generic and reusable code by treating different objects in a uniform way.
+
+--- 
 
